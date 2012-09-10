@@ -12,7 +12,7 @@
 <style><? include(TEMPLATEPATH.'/css/style.css'); ?></style>
 <script src="<?php echo get_bloginfo('template_url'); ?>/js/modernizr.js"></script>
 <meta name=author content="Guillem Hernandez Sola"/>
-<meta name=description content="Guillem Hernandez Sola is a developer advocate and web performance engineer at Google."/>
+<meta name=description content="Guillem Hernandez Sola is a software quality assurance engineer and web performance engineer at Softonic."/>
 <meta property=og:image content="http://www.hernandezsola.net/images/ilya.jpg"/>
 <link rel=alternate type="application/rss+xml" title="Guillem Hernandez Sola RSS Feed" href="<?php echo site_url(); ?>/feed/"/>
 <link rel=canonical href="<?php echo site_url(); ?>"/>
@@ -21,7 +21,7 @@
 <div id=container>
 <header>
 <div class=content>
-<a href="/">Guillem Hernandez Sola</a><b>&nbsp;|&nbsp;</b><span>Random stupid smart quote</span>
+<a href="/">Guillem Hernandez Sola</a><b>&nbsp;|&nbsp;</b><a href="http://en.wikipedia.org/wiki/Software_quality_assurance">Software Quality Assurance Engineer</a><b><b>&nbsp;|&nbsp;</b><a href="<?php echo site_url(); ?>/telecos/"/>Apunts de Telecos</a></span>
 </div>
 </header>
 <div id=about>
