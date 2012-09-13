@@ -21,11 +21,6 @@
 <div id=container>
 <header>
 <div class=content>
-<a href="/">Guillem Hernandez Sola</a><b>&nbsp;|&nbsp;</b><a href="http://en.wikipedia.org/wiki/Software_quality_assurance">Software Quality Assurance Engineer</a><b><b>&nbsp;|&nbsp;</b><a href="<?php echo site_url(); ?>/telecos/"/>Apunts de Telecos</a></span>
+<a href="/">Guillem Hernandez Sola</a><b>&nbsp;|&nbsp;</b><a href="http://en.wikipedia.org/wiki/Software_quality_assurance">Software Quality Assurance Engineer</a></span>
 </div>
 </header>
-<div id=about>
-<?php
-include(TEMPLATEPATH.'/banner_header.php');
-?>
-</div>

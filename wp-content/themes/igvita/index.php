@@ -1,4 +1,9 @@
 <?php get_header(); ?>
+<div id=about>
+<?php
+include(TEMPLATEPATH.'/banner_header.php');
+?>
+</div>
 <div id=main role=main>
 <div id=page class=content>
 <div id=home>
@@ -12,13 +17,14 @@ $args = array( 'numberposts' => 20 );
 $myposts = get_posts( $args );
 foreach( $myposts as $post ) :	setup_postdata($post); 
 ?>
-<li>
+<li class=clearfix>
 <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
-<time datetime="<?php echo get_the_date('j M Y');  ?>" pubdate=pubdate><?php echo get_the_date('j M Y');  ?></time>
+<time datetime="<?php echo get_the_date('Y-M-j');  ?>" pubdate=pubdate><?php echo get_the_date('j M Y');  ?></time>
 </li>
 <?php endforeach; ?>
 </ul>
 </div>
 </div>
 </div>
+
 <?php get_footer(); ?>
